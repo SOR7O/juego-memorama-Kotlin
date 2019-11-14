@@ -1,18 +1,10 @@
 package com.example.juego
 
-import android.graphics.drawable.Drawable
-import android.media.Image
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 import android.widget.Toast
-import androidx.annotation.IntegerRes
-import kotlinx.android.synthetic.main.activity_main.*
-//import kotlin.random.Random
 import kotlin.random.Random as Random
-import java.util.*
-import java.util.concurrent.ThreadLocalRandom
-import kotlin.collections.ArrayList
 
 class MainActivity : AppCompatActivity() {
 
@@ -114,7 +106,7 @@ class MainActivity : AppCompatActivity() {
         button24.setBackgroundResource(R.drawable.signo)
 
 
-        var imageArray = arrayOf(
+        val imageArray = arrayOf(
             R.drawable.benzema,
             R.drawable.jovic,
             R.drawable.rodrygo,
