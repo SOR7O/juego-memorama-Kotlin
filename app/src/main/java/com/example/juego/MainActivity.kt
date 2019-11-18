@@ -14,13 +14,12 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
 
-        this.click()
-
+        this.comenzarJuego()
 
     }
 
 
-    private fun click() {
+    private fun comenzarJuego() {
         //Inicializamos los botones que sea de tipo Button
         val button = findViewById<Button1>(R.id.button)
         val button1 = findViewById<Button1>(R.id.button1)
